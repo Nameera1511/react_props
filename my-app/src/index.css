@@ -1,0 +1,218 @@
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+.navbar{
+    height: 100px;
+    width: 100%;
+}
+
+.navbar .main{
+    display: flex;
+    gap: 90px;
+    width: auto;
+    height: 70px;
+   background-color: brown;
+
+  
+  
+}
+
+.navbar .main h2{
+    font-family: "PlayfairDisplay";
+  font-size: 40px;
+  font-weight: 600;
+  font-style: italic;
+ /* margin-bottom: 10px; */
+  margin-left: 17px;
+ margin-top: 20px; 
+}
+.navbar .main .tabs{
+    display: flex;
+    padding-bottom: 30px;
+    list-style: none;
+    /* padding-left: 50px; */
+    margin-top: 30px;
+    gap: 15px;
+    color: white;
+
+}
+.tabs a{
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .main button{
+    border-radius: 100px;
+    width:  147px;
+    height: 48px;
+    margin-top: 20px;
+ 
+}
+/* Section Hero */
+#hero img{
+    width: 100%;
+    height: 600px;
+    padding-top: 50px;
+}
+/* Section Healty */
+#healthy{
+    background-color: #F9F9F7;
+    height: 600px;
+    width: 100%;
+    display: flex;
+ padding-top: 80px;
+ padding-left: 60px;
+}
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 5%;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.left-column {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+ 
+}
+
+.image-container {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image-container img {
+  width: 550px;
+  border-radius: 10px;
+  height: 500px;
+}
+
+.contact-card {
+  /* position: absolute; */
+  bottom: 20px;
+  position: relative;
+ left: 280px;
+ bottom: 200px;
+  height: 200px;
+  background-color: #2f2f2f;
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  font-size: 14px;
+}
+
+.contact-card h3 {
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.right-column {
+  flex: 1;
+  min-width: 300px;
+ 
+}
+
+.right-column h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #212121;
+  margin-right: 200px;
+  font-family: "PlayfairDisplay";
+  font-weight: 500;
+}
+
+.right-column p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  margin-right: 200px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: 1px solid black;
+  background-color: transparent;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Section Browser */
+/* #all-cards{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+h2{
+font-family: "PlayfairDisplay";
+  font-size: 55px;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+}
+.card {
+  width: 220px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.icon {
+  background-color: #f2f2f2;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.card p {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.explore-link {
+  text-decoration: none;
+  color: #b21f2d;
+  font-weight: bold;
+  font-size: 14px;
+}
+ iframe{
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
+
+ } */
