@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+<<<<<<< HEAD
 
 import Card from './components/Card'
 import Custom_button from './components/Custom_button'
@@ -43,6 +44,20 @@ display2.value = ""
      <Custom_button  buttonText = "Submit" onClick = {onClick} />
   </div>
   
+=======
+import Navbar from './components/Navbar'
+import HeroSection from './components/HeroSection'
+import HealthySection from './components/HealthySection'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+   <Navbar/>
+   <HeroSection/>
+   <HealthySection/>
+>>>>>>> 736be958c2f364c8a4dcbb2e7f090d7a332a5675
     </>
   )
 }
