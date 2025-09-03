@@ -13,9 +13,9 @@ function onClick(){
   return (
     <>
     <div className='card-container' > 
-     <Card imageUrl ="src/assets/barbie.jpg"  name= "Barbie" category = "Cartoon"/>
-     <Card imageUrl ="src/assets/doremon.webp"  name= "Doremon" category = "Cartoon"/>
-     <Card imageUrl ="src/assets/scobi.png"  name= "SpongeBob" category = "Cartoon"/>
+     <Card imageUrl ="/assets/barbie.jpg"  name= "Barbie" category = "Cartoon"/>
+     <Card imageUrl ="/assets/doremon.webp"  name= "Doremon" category = "Cartoon"/>
+     <Card imageUrl ="/assets/scobi.png"  name= "SpongeBob" category = "Cartoon"/>
     </div>
 
     <div id='container2'>
