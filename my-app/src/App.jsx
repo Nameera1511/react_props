@@ -1,19 +1,27 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Navbar from './components/Navbar'
-import HeroSection from './components/HeroSection'
-import HealthySection from './components/HealthySection'
+import Card from './components/Card'
+import Custom_button from './components/Custom_button'
 
 function App() {
-  const [count, setCount] = useState(0)
+function onClick(){
+  alert("Submit")
+  
+}
 
   return (
     <>
-   <Navbar/>
-   <HeroSection/>
-   <HealthySection/>
+    <div className='card-container' > 
+     <Card imageUrl ="src/assets/barbie.jpg"  name= "Barbie" category = "Cartoon"/>
+     <Card imageUrl ="src/assets/doremon.webp"  name= "Doremon" category = "Cartoon"/>
+     <Card imageUrl ="src/assets/scobi.png"  name= "SpongeBob" category = "Cartoon"/>
+    </div>
+
+    <div id='container2'>
+      <Custom_button  buttonText = "Submit" onClick = {onClick}/>
+    </div>
+   
     </>
   )
 }
